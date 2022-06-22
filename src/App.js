@@ -10,6 +10,7 @@ import MainLayout from './layouts/MainLayout';
  */
 import HomeView from './pages/Home';
 import PokemonView from './pages/Pokemon';
+import TeamView from './pages/Team';
 
 
 const App = () => {
@@ -17,7 +18,8 @@ const App = () => {
   const routes = useRoutes([
     { path : "", element : <MainLayout/>, children : [
       {path: "", element : <HomeView/>},
-      {path: ":id", element : <PokemonView />}
+      {path: ":id", element : <PokemonView />},
+      {path: "team" , element : <TeamView/>}
     ]}
   ])
 

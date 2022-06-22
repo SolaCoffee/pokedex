@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body, html {
+  background-color: lightgray;
+  color : black;
+}
+
+.pokemon-btn {
+  background-color: #1C4CBD;
+  border-color : #1C4CBD;
+}
+
+.pokemon-btn-red {
+  background-color: #CE2211;
+  border-color : #CE2211;
+}
+
+.pokemon-header {
+  background-color: #000000;
+  color : white;
+}
+
+.pokemon-header-second {
+  background-color: #0C3348;
+}
+
+.pokemon-card { 
+  width: 15rem;
+  border : solid 2px black;
+  border-radius: 15px;
+}
